@@ -18,7 +18,7 @@ import { QuestionsModule } from './questions/questions.module';
         password: String(process.env.DATABASE_PASSWORD),
         database: process.env.DATABASE_NAME,
         autoLoadEntities: true,
-        synchronize: false,
+        synchronize: true,
       }),
     }),
     QuestionsModule,
